@@ -1,0 +1,191 @@
+/* 学号标识 */
+.student-info {
+    background: #27ba9b;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+/* 快捷导航 */
+.shortcut {
+    background: #333;
+    height: 52px;
+    line-height: 52px;
+}
+
+.shortcut ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shortcut li {
+    margin-left: 20px;
+}
+
+.shortcut a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.shortcut a:hover {
+    color: #27ba9b;
+}
+
+/* 头部 */
+.header {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    background: #fff;
+}
+
+.logo h1 a {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #27ba9b;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav {
+    margin-left: 50px;
+    flex: 1;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    margin-right: 40px;
+}
+
+.nav a {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.nav a:hover {
+    color: #27ba9b;
+    border-bottom: 2px solid #27ba9b;
+}
+
+.search {
+    position: relative;
+    margin-right: 20px;
+}
+
+.search input {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #27ba9b;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart a {
+    display: flex;
+    align-items: center;
+    color: #27ba9b;
+}
+
+.cart i {
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    background: #e26237;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-style: normal;
+}
+
+/* 底部 */
+.footer {
+    background: #333;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.service ul {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #555;
+}
+
+.service h5 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.help {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.help dl dt {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.help dl dd {
+    margin-bottom: 10px;
+}
+
+.help dl dd a {
+    color: #999;
+    font-size: 14px;
+}
+
+.help dl dd a:hover {
+    color: #27ba9b;
+}
+
+.help .right ul {
+    display: flex;
+}
+
+.help .right li {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.help .right img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #555;
+    color: #999;
+}
+
+.copyright a {
+    color: #999;
+    margin: 0 10px;
+}
+
+.copyright a:hover {
+    color: #27ba9b;
+}
